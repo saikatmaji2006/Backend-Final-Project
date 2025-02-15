@@ -20,7 +20,7 @@ const userSchema = new mongoose.Schema({
         
 
     },
-    FullName : {
+    fullName : {
         type : String,
         required : true,
         trim : true,
@@ -67,7 +67,7 @@ userSchema.methods.generatAccessToken = function(){
             _id : this._id,
             Email : this.Email,
             UserName : this.UserName,
-            FullName : this.FullName,
+            fullName : this.fullName,
 
 
         },
