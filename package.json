@@ -7,6 +7,10 @@
     "test": "tests"
   },
   "type": "module",
+
+  "server":{
+    
+  },
   "scripts": {
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },

@@ -11,4 +11,4 @@ const storage = multer.diskStorage({
   
 export const upload = multer({ 
     storage,
-})
+})//entire multer is exported along with the specifications
