@@ -2,19 +2,21 @@
   "name": "backend-final-project",
   "version": "1.0.0",
   "description": "echo \"# Backend-Final-Project\" >> README.md\r git init\r git add README.md\r git commit -m \"first commit\"\r git branch -M main\r git remote add origin git@github.com:saikatmaji2006/Backend-Final-Project.git\r git push -u origin main",
-  "main": "server.js",
+  "main": "index.js",
   "directories": {
     "test": "tests"
   },
   "type": "module",
   "scripts": {
-    "dev": "nodemon -r dotenv/config --experimental-json-modules src/app.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "author": "Saikat Maji",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cloudinary": "^2.5.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
